@@ -3,10 +3,10 @@
 This repository contains code for the portal being developed as part of the ES project. 
 
 
-#Coding conventions
+##Coding conventions
 
 
-##For forms
+###For forms
 
 Create separate file for each form, with the name [form-x].php
 
@@ -29,16 +29,16 @@ Note: Do not put `<html>` or other header tags in the form files. Just the form 
 All form files should be created in root directory (with the js and css folders)
 
 
-##For Javascript
+###For Javascript
 
 Will be added.
 
 
-##For CSS
+###For CSS
 
 Will be added.
 
 
-##For PHP
+###For PHP
 
 Will be added.
