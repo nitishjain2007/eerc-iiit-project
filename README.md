@@ -26,8 +26,25 @@ Here is an example format for the form file:
 
 Note: Do not put `<html>` or other header tags in the form files. Just the form element. 
 
-All form files should be created in root directory (with the js and css folders)
+####THIS SECTION HAS BEEN MODIFIED
+Earlier, it was mentioned that `All form files should be created in root directory (with the js and css folders)`.
+However, now the directory structure has been changed due to new information that was brought to attention.
 
+Forms have several sub components, each of which can be put in a separate folder. 
+So, here's what the final structure looks like:
+```
+|-js (directory)
+|-css (directory)
+|- <all other files>
+|-form1_mudhouse (directory)
+    |-1st_subComponent (directory)
+        |-page1.php (the form file)
+        |-page2.php
+    |-2nd_subComponent  (directory)
+    
+... Similarly for all forms
+```
+Please let me know if there are questions.
 
 ###For Javascript
 
