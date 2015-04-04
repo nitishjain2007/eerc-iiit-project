@@ -5,40 +5,40 @@
     <p>1. Acceleration and Displacement Hazards</p>
 
     <p>1.1 Shelves</p>
-    <input type="radio" name="1.1" value='a'/>Not anchored to structural system<br/>
-    <input type="radio" name="1.1" value='b'/>Contents not strapped<br/>
-    <input type="radio" name="1.1" value='c' checked/>None of these<br/>
+    <p>You may select 0 or more.</p>
+    <input type="radio" name="_1-1[]" value='a'/>Not anchored to structural system<br/>
+    <input type="radio" name="_1-1[]" value='b'/>Contents not strapped<br/>
 
     <p>1.2 Roof design</p>
-    <input type="radio" name="1.2" value='a'/>Items on lofts<br/>
-    <input type="radio" name="1.2" value='b' checked/>None of these<br/>
+    <p>You may select 0 or more.</p>
+    <input type="radio" name="_1-2[]" value='a'/>Items on lofts<br/>
 
     <p>1.3 Hangings from roof/floor and from walls</p>
-    <input type="radio" name="1.3" value='a'/>Heavy weight and unstrapped<br/>
-    <input type="radio" name="1.3" value='b' checked/>None of these<br/>
+    <p>You may select 0 or more.</p>
+    <input type="radio" name="_1-3[]" value='a'/>Heavy weight and unstrapped<br/>
 
     <p>1.4 Gas cylinders and geysers</p>
-    <input type="radio" name="1.4" value='a'/>Unsecured to the wall<br/>
-    <input type="radio" name="1.4" value='b' checked/>None of these<br/>
+    <p>You may select 0 or more.</p>
+    <input type="radio" name="_1-4[]" value='a'/>Unsecured to the wall<br/>
 
     <p>1.5 Items on adjacent building</p>
-    <input type="radio" name="1.5" value='a'/>Unsecured to adjacent building<br/>
-    <input type="radio" name="1.5" value='b' checked/>None of these<br/>
+    <p>You may select 0 or more.</p>
+    <input type="radio" name="_1-5[]" value='a'/>Unsecured to adjacent building<br/>
     <br/>
 
     <p>2. Lifelines</p>
 
     <p>2.1 Electric supply</p>
-    <input type="radio" name="2.1" value='a'/>Cable is taught between house and pole<br/>
-    <input type="radio" name="2.1" value='b' checked/>None of these<br/>
+    <p>You may select 0 or more.</p>
+    <input type="radio" name="_2-1[]" value='a'/>Cable is taught between house and pole<br/>
 
     <p>2.2 Water supply</p>
-    <input type="radio" name="2.2" value='a'/>Pipeline is rigidly held between house and main line<br/>
-    <input type="radio" name="2.2" value='b' checked/>None of these<br/>
+    <p>You may select 0 or more.</p>
+    <input type="radio" name="_2-2[]" value='a'/>Pipeline is rigidly held between house and main line<br/>
 
     <p>2.3 Sewage</p>
-    <input type="radio" name="2.3" value='a'/>Sewage line is rigidly held between house and main line<br/>
-    <input type="radio" name="2.3" value='b' checked/>None of these<br/>
+    <p>You may select 0 or more.</p>
+    <input type="radio" name="_2-3[]" value='a'/>Sewage line is rigidly held between house and main line<br/>
     <br/>
 
     <input type="submit" value="Submit"/>

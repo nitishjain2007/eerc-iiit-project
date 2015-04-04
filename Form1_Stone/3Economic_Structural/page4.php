@@ -4,15 +4,15 @@
     <p>5. Construction Details</p>
 
     <p>5.1 Quality</p>
-    <input type="radio" name="5.1" value='a'/>Random rubble stones<br/>
-    <input type="radio" name="5.1" value='b'/>No use of through stones<br/>
-    <input type="radio" name="5.1" value='c'/>Low quality untreated timber<br/>
-    <input type="radio" name="5.1" value='d' checked/>None of these<br/>
+    <p>You may select 0 or more.</p>
+    <input type="radio" name="_5-1[]" value='a'/>Random rubble stones<br/>
+    <input type="radio" name="_5-1[]" value='b'/>No use of through stones<br/>
+    <input type="radio" name="_5-1[]" value='c'/>Low quality untreated timber<br/>
 
     <p>5.2 Workmanship</p>
-    <input type="radio" name="5.2" value='a'/>Poor geometries of masonry and roof<br/>
-    <input type="radio" name="5.2" value='b'/>Adhoc procedures of construction<br/>
-    <input type="radio" name="5.2" value='c' checked/>None of these<br/>
+    <p>You may select 0 or more.</p>
+    <input type="radio" name="_5-2[]" value='a'/>Poor geometries of masonry and roof<br/>
+    <input type="radio" name="_5-2[]" value='b'/>Adhoc procedures of construction<br/>
     <br/>
 
     <input type="submit" value="Submit"/>
