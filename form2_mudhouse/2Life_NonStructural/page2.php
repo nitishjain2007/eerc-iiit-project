@@ -14,7 +14,7 @@ during an earthquake</p>
 <p>b. The gas cylinders are not strapped to the wall, that can result in
 toppling of the cylinders, which in turn can lead to gas leakage and
 thereby asphyxiation of persons during an earthquake.</p>
-<input type="radio" name="__2b" value="Y"> Yes
+<input type="radio" name="_2b" value="Y"> Yes
 <input type="radio" name="_2b" value="N"> No
 
 
