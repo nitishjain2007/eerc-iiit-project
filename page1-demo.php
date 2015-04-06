@@ -9,6 +9,7 @@
     <!-- Font Awesome Icons -->
     <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css" rel="stylesheet" type="text/css" />
     <!-- Ionicons -->
+    <link href="./plugins/iCheck/all.css" rel="stylesheet" type="text/css" />
     <link href="http://code.ionicframework.com/ionicons/2.0.0/css/ionicons.min.css" rel="stylesheet" type="text/css" />
     <!-- Theme style -->
     <link href="dist/css/AdminLTE.min.css" rel="stylesheet" type="text/css" />
@@ -187,8 +188,8 @@
           <!-- Sidebar Menu -->
           <ul class="sidebar-menu">
             <!-- Optionally, you can add icons to the links -->
-            <li class="active"><a href="#"><span>Overview</span></a></li>
-            <li class="treeview">
+            <li ><a href="#"><span>Overview</span></a></li>
+            <li class="active treeview">
               <a href="#"><span>Stone Houses</span> <i class="fa fa-angle-left pull-right"></i></a>
               <ul class="treeview-menu">
                 <li><a href="page1-demo.php">Life Structural</a></li>
@@ -268,19 +269,54 @@
         <!-- Content Header (Page header) -->
         <section class="content-header">
           <h1>
-            Overview
-            <small>What this project is all about</small>
+            Stone Houses
+            <small>Life Structural</small>
           </h1>
           <ol class="breadcrumb">
-            <li><a href="#"><i class="fa fa-dashboard"></i> Overview</a></li>
-            <li class="active">Here</li>
+            <li><a href="#"><i class="fa fa-dashboard"></i> Stone Houses</a></li>
+            <li class="active">Life Structural</li>
           </ol>
         </section>
 
         <!-- Main content -->
         <section class="content">
           
-          <!-- Your Page Content Here -->
+          
+<!--Life-threatening Factors related to the Structural Elements - Page 1 -->
+
+<form action="index.php" method="" role="form">
+  <div class="form-group">
+    <p>1. Sitting Issues</p>
+
+    <p>a. The house is built on hill slopes that can slide</p>
+    <input type="radio" class="flat-red" name="_1a" value='Y'/>Yes
+    <input type="radio" class="flat-red" name="_1a" value='N'/>No
+
+
+    <p>b. The house is built on river terraces that can slide/creep</p>
+    <input type="radio" class="flat-red" name="_1b" value='Y'/>Yes
+    <input type="radio" class="flat-red" name="_1b" value='N'/>No
+
+
+    <p>c. The house is built on hill slopes /adjacent to hill slopes (even though on flat ground), but vulnerable to falling debris from the hill top</p>
+    <input type="radio" class="flat-red" name="_1c" value='Y'/>Yes
+    <input type="radio" class="flat-red" name="_1c" value='N'/>No
+    <br/>
+
+    <p>2. Soil and Foundation Conditions</p>
+
+    <p>a. The soil underneath the house is liquefiable</p>
+    <input type="radio" class="flat-red" name="_2a" value='Y'/>Yes
+    <input type="radio" class="flat-red" name="_2a" value='N'/>No
+
+    <p>b. The soil in the area adjoining the site is liquefiable and can flow laterally to move the soil from underneath the house</p>
+    <input type="radio" class="flat-red" name="_2b" value='Y'/>Yes
+    <input type="radio" class="flat-red" name="_2b" value='N'/>No
+    <br/>
+</div>
+    <input type="submit" class="btn btn-primary btn-success" value="Submit" />
+</form>
+
 
         </section><!-- /.content -->
       </div><!-- /.content-wrapper -->
